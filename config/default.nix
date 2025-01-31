@@ -15,7 +15,7 @@
   viAlias = true;
   vimAlias = true;
 
-  extraPackages = with pkgs; [ripgrep fd];
+  extraPackages = with pkgs; [ripgrep fd alejandra];
 
   clipboard.providers.wl-copy.enable = true;
 }

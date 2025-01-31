@@ -9,6 +9,7 @@
         "DeferredUIEnter"
       ];
     };
+    folding = true;
     settings = {
       auto_install = false;
       indent = {

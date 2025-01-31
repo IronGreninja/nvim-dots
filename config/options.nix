@@ -61,9 +61,9 @@
       fold = " ";
       foldclose = "";
       foldopen = "";
-      foldsep = " ";
+      foldsep = "▕";
     };
-    foldcolumn = "1";
+    foldcolumn = "0";
     foldenable = true;
     foldlevel = 99;
     foldlevelstart = 99;
