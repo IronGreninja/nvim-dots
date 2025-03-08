@@ -28,7 +28,7 @@ in {
       function()
         ${G}.reset_hunk({ vim.fn.line('.'), vim.fn.line('v') })
       end
-    '') {desc = "Stage hunk";})
+    '') {desc = "Reset hunk";})
 
     (map "n" "<leader>gS" (raw "${G}.stage_buffer") {desc = "Stage buffer";})
     (map "n" "<leader>gR" (raw "${G}.reset_buffer") {desc = "Reset buffer";})
