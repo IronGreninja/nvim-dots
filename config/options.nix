@@ -1,6 +1,6 @@
 {
   opts = let
-    indentSize = 2;
+    indentSize = 4;
   in {
     cursorline = true; # highlight current line
     cursorlineopt = "line"; # highlight only line number of current line
@@ -17,8 +17,8 @@
     breakindent = true; # enable break indent
 
     # tabs and indentation
-    tabstop = indentSize; # 2 spaces for tabs
-    shiftwidth = indentSize; # 2 spaces for indent width when using '>>' or '<<' on existing line
+    tabstop = indentSize; # spaces for tabs
+    shiftwidth = indentSize; # spaces for indent width when using '>>' or '<<' on existing line
     softtabstop = indentSize;
     expandtab = true; # expand tab to spaces
     autoindent = true; # copy indent from current line when starting new one
