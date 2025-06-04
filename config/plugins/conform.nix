@@ -49,6 +49,7 @@
         ];
         c = c_cpp;
         cpp = c_cpp;
+        markdown = ["mdformat"];
       };
 
       notify_on_error = true;
